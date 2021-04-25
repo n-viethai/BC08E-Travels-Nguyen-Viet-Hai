@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Njoy TRAVELS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="./CSS/style.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="grid">
+                <div class="header__container">
+                    <div class="header__brand">
+                        <a href="#">
+                            <h1>
+                                <span>NJOY</span>
+                                TRAVELS
+                            </h1>
+                        </a>
+                    </div>
+                    <div class="header__content">
+                        <div class="header__contact">
+                            <a href="tel:+84976283273">
+                                <i class="fas fa-phone-alt"></i> 
+                                : +84 976 283 273
+                            </a>
+                            <a href="mailto:viethai1309@gmail.com">
+                                <i class="far fa-envelope"></i>
+                                : viethai1309@gmail.com
+                            </a>
+                        </div>
+                        <div class="header__nav">
+                            <nav class="header__nav-navbar">
+                                <a href="#" class="header__nav-item">Home</a>
+                                <a href="#" class="header__nav-item">About</a>
+                                <a href="#" class="header__nav-item">Pages</a>
+                                <a href="#" class="header__nav-item">Code</a>
+                                <a href="#" class="header__nav-item">Gallery</a>
+                                <a href="#" class="header__nav-item">Contact</a>
+                            </nav>
+                            <div class="header__social">
+                                <a href="#" class="header__social-item">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                                <a href="#" class="header__social-item">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="header__social-item">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="header__social-item">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="carousel">
+            <div class="carousel__container">
+                <div class="carousel__slide carousel__slide--1st">
+                </div>
+                <div class="carousel__slide carousel__slide--2nd">
+                </div>
+
+                <!-- Next and previous buttons -->
+
+                <a class="btn slide__btn btn-pre" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="btn slide__btn btn-next" onclick="plusSlides(1)">&#10095;</a>
+                <div class="carousel__dot">
+                    <span class="carousel__dot-slide" onclick="currentSlide(1)"></span>
+                    <span class="carousel__dot-slide" onclick="currentSlide(2)"></span>
+                </div>
+
+                <div class="carousel__info">
+                    <h1 class="carousel__info-sub-title">VARIUS</h1>
+                    <h1 class="carousel__info-title">Your Holiday!</h1>
+                    <p class="carousel__info-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Doloribus optio aspernatur iure, similique sapiente non dolorum. 
+                        Maxime aspernatur enim quasi quis ut, neque nemo optio facere! 
+                        Dolorum natus qui, sequi, nostrum quos blanditiis rem libero 
+                        maiores sapiente fugiat debitis pariatur quibusdam vel minus 
+                        quis porro, quisquam omnis adipisci?
+                    </p>
+                    <button class="btn primary-btn">More</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="welcome">
+            <div class="grid">
+                <div class="welcome__container">
+                    <h1 class="welcome__title">WELCOME</h1>
+                    <div class="welcome__content">
+                        <div class="welcome__content-item welcome__content-item--l">
+                            <div class="welcome__content-item-container">
+                                <h1>Mauris in erat justo.</h1>
+                                <p>
+                                    <span>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Saepe itaque facilis sunt provident enim, blanditiis optio 
+                                        molestias culpa reiciendis? Illo at quo eligendi debitis 
+                                        quia repudiandae provident! Nisi quibusdam similique 
+                                        doloremque, facere tempora modi! Natus optio, quod dolor 
+                                        fugiat, hic praesentium pariatur temporibus dicta provident 
+                                        explicabo et est cum accusantium incidunt, beatae at. 
+                                        Quo corporis necessitatibus tempora perferendis, officia beatae.
+                                    </span>
+                                    <br/>
+                                    <span>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Saepe itaque facilis sunt provident enim, blanditiis optio 
+                                        molestias culpa reiciendis? Illo at quo eligendi debitis 
+                                        quia repudiandae provident! Nisi quibusdam similique 
+                                        doloremque, facere tempora modi! Natus optio, quod dolor 
+                                        fugiat, hic praesentium pariatur temporibus dicta provident 
+                                        explicabo et est cum accusantium incidunt, beatae at. 
+                                        Quo corporis necessitatibus tempora perferendis, officia beatae.
+                                    </span>
+                                </p>
+                                <button class="btn primary-btn mt-16">More</button>
+                            </div>
+                        </div>
+                        <div class="welcome__content-item welcome__content-item--s">
+                            <div class="welcome__content-item-container">
+                                <img src="./images/2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="welcome__content-item welcome__content-item--s">
+                            <div class="welcome__content-item-container">
+                                <img src="./images/3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="welcome__content-item welcome__content-item--l">
+                            <div class="welcome__content-item-container">
+                                <h1>Mauris in erat justo.</h1>
+                                <p>
+                                    <span>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Saepe itaque facilis sunt provident enim, blanditiis optio 
+                                        molestias culpa reiciendis? Illo at quo eligendi debitis 
+                                        quia repudiandae provident! Nisi quibusdam similique 
+                                        doloremque, facere tempora modi! Natus optio, quod dolor 
+                                        fugiat, hic praesentium pariatur temporibus dicta provident 
+                                        explicabo et est cum accusantium incidunt, beatae at. 
+                                        Quo corporis necessitatibus tempora perferendis, officia beatae.
+                                    </span>
+                                    <br/>
+                                    <span>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Saepe itaque facilis sunt provident enim, blanditiis optio 
+                                        molestias culpa reiciendis? Illo at quo eligendi debitis 
+                                        quia repudiandae provident! Nisi quibusdam similique 
+                                        doloremque, facere tempora modi! Natus optio, quod dolor 
+                                        fugiat, hic praesentium pariatur temporibus dicta provident 
+                                        explicabo et est cum accusantium incidunt, beatae at. 
+                                        Quo corporis necessitatibus tempora perferendis, officia beatae.
+                                    </span>
+                                </p>
+                                <button class="btn primary-btn mt-16">More</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="grid">
+                <div class="services__container">
+                    <h1 class="services__title">SERVICES</h1>
+                    <div class="services__content">
+                        <div class="services__item">
+                            <i class="fas fa-anchor"></i>
+                            <h1>Phaseus suspict</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Neque aut atque veritatis sint hic dolorum, laboriosam fuga.
+                            </p>
+                        </div>
+                        <div class="services__item">
+                            <i class="fas fa-comment"></i>
+                            <h1>Phaseus suspict</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Neque aut atque veritatis sint hic dolorum, laboriosam fuga.
+                            </p>
+                        </div>
+                        <div class="services__item">
+                            <i class="fas fa-heartbeat"></i>
+                            <h1>Phaseus suspict</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Neque aut atque veritatis sint hic dolorum, laboriosam fuga.
+                            </p>
+                        </div>
+                        <div class="services__item">
+                            <i class="fab fa-uniregistry"></i>
+                            <h1>Phaseus suspict</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Neque aut atque veritatis sint hic dolorum, laboriosam fuga.
+                            </p>
+                        </div>
+                        <div class="services__item">
+                            <i class="fas fa-heartbeat"></i>
+                            <h1>Phaseus suspict</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Neque aut atque veritatis sint hic dolorum, laboriosam fuga.
+                            </p>
+                        </div>
+                        <div class="services__item">
+                            <i class="fas fa-thumbs-up"></i>
+                            <h1>Phaseus suspict</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Neque aut atque veritatis sint hic dolorum, laboriosam fuga.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="grid">
+                <div class="news__container">
+                    <h1 class="news__title">NEWS</h1>
+                    <div class="news__content">
+                        <div class="news__content-img">
+                            <img src="./images/4.jpg" alt=""/>
+                        </div>
+                        <div class="news__content-info">
+                            <div class="news__content-admin">
+                                <span>
+                                    <i class="fas fa-user"></i>
+                                    admin
+                                </span>
+                                <span>
+                                    <i class="far fa-calendar-alt"></i>
+                                    April, 06, 2021
+                                </span>
+                            </div>
+                            <h1>The most beautiful <br/> beach on over <br/> the world</h1>
+                            <button class="btn primary-btn">More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="club">
+            <div class="grid">
+                <div class="club__container">
+                    <div class="club__content">
+                        <h1>Join the club</h1>
+                        <div class="club__content-input">
+                            <input type="text" name="" id="" placeholder="Subcribe">
+                            <button class="btn primary-btn">
+                                <i class="far fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="grid">
+                <div class="footer__container">
+                    <div class="footer__content">
+                        <div class="footer__item footer__item--l">
+                            <h1>History of us</h1>
+                            <p>
+                                <span>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Eos, deleniti. Rem vero corporis neque excepturi. 
+                                    Sunt dolorum mollitia incidunt. Qui!
+                                </span>
+                                <br/>
+                                <span>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Eos, deleniti. Rem vero corporis neque excepturi. 
+                                    Sunt dolorum mollitia incidunt. Qui!
+                                </span>
+                            </p>
+                        </div>
+                        <div class="footer__item footer__item--l">
+                            <h1>Twitter post</h1>
+                            <p>
+                                <span>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Eos, deleniti.
+                                    <a href="#">http://example.com</a> 
+                                    Rem vero corporis neque excepturi. 
+                                    Sunt dolorum mollitia incidunt. Qui!
+                                </span>
+                                <br/>
+                                <span>
+                                    <i class="fab fa-twitter"></i>
+                                    02 day ago
+                                </span>
+                                <br/>
+                                <span>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Eos, deleniti. Rem vero corporis neque excepturi. 
+                                    Sunt dolorum mollitia 
+                                    <a href="#">http://example.com</a> 
+                                    incidunt. Qui!
+                                </span>
+                                <br/>
+                                <span>
+                                    <i class="fab fa-twitter"></i>
+                                    03 day ago
+                                </span>
+                            </p>
+                        </div>
+                        <div class="footer__item footer__item--s">
+                            <h1>Events</h1>
+                            <p>
+                                <span>12 Aug</span>
+                                Cuciculum
+                            </p>
+                            <p>
+                                <span>12 Aug</span>
+                                Cuciculum
+                            </p>
+                            <p>
+                                <span>12 Aug</span>
+                                Cuciculum
+                            </p>
+                            <p>
+                                <span>12 Aug</span>
+                                Cuciculum
+                            </p>
+                            <p>
+                                <span>12 Aug</span>
+                                Cuciculum
+                            </p>
+                        </div>
+                        <div class="footer__item footer__item--s">
+                            <h1>Navigation</h1>
+                            <a href="#">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">Pages</a>
+                            <a href="#">Code</a>
+                            <a href="#">Gallery</a>
+                            <a href="#">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__sig">
+                <div class="grid">
+                    <p>
+                        &copy; 2021 Njoy TRAVELS.All rights reserve 
+                        <span></span> 
+                        Design by:
+                        <span>Viet Hai</span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("carousel__slide");
+    var dots = document.getElementsByClassName("carousel__dot-slide");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    } 
+</script>
+</html>
